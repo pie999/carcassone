@@ -1,0 +1,19 @@
+:root {
+  --tile-size: 100px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(20, var(--tile-size));
+  grid-template-rows: repeat(20, var(--tile-size));
+}
+
+.tile {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.filled {
+  background-color: black;
+}
